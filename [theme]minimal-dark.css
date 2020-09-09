@@ -113,6 +113,11 @@ notebook tabs,
   background-color: @customdark_black;
 }
 
+.dt_module_focus #iop-panel-label
+{
+  font-weight: bold;
+}
+
 
 button,
 button:disabled,
