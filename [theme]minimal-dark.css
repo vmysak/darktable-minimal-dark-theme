@@ -129,7 +129,16 @@ button:disabled,
   border: 0;
   border-radius: 0;
   color: @customdark_white;
+}
+
+#blending-tabs,
+#blending-tabs button {
   background-color: @customdark_black;
+}
+
+#modules-tabs button:checked,
+#blending-tabs button:checked {
+  background-color: shade(@customdark_green, 0.6);
 }
 
 #module-enable-button:checked {
@@ -137,7 +146,7 @@ button:disabled,
 }
 
 #iop-plugin-ui {
-  margin-left: 20px;
+  font-size: 0.9em;
 }
 
 treeview,
